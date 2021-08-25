@@ -129,7 +129,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-TOKEN = '1998159823:AAGm6SxrJWZCWpcZuOQGzXk9BH-M-hMznak'
+TOKEN = 'Your bot token here'
 PROXY_URL = 'https://telegg.ru/orig/bot'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 MEDIA_URL = '/media/'
