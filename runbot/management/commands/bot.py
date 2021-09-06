@@ -382,7 +382,7 @@ def command_furniture_category(update, context):
     if A == 'back':
         profile = Profile.objects.get(telegram_id=update.effective_user.id)
         room = Rooms.objects.get(id=profile.current_room)
-        ph = int(room.id) % 10 + 1
+        ph = int(room.id) % 10 + 2
         xabar = f'Xona Nomi: {room.name}\n' \
                 f'xona rangi: {room.color}\n' \
                 f'Xona eni {room.eni}m\n' \
